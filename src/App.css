@@ -1,0 +1,36 @@
+.light{
+    --body_bg:255, 255, 255;
+    --Primary_color: 40, 203, 139;
+    --Secondary:38, 50, 56;
+    --info: 33, 148, 243;
+ 
+    --Brand-Primary:76, 175, 79;
+    --Neutral-D_Grey:77, 77, 77;
+    --Text-Gray-900:24, 25, 31;
+    --Neutral-Silver:245, 247, 250;
+    --Neutral-L_Grey:137, 147, 158;
+    --Neutral-Grey:113, 113, 113;
+    --Neutral-Black:38, 50, 56;
+    --Neutral-White:255, 255, 255;
+    --Tint-T5:232, 245, 233;
+    --shadow-color:171, 190, 209, 0.40;
+ }
+ .dark {
+    --body_bg:  23, 23, 23;           /* Dark background for the body */
+    --Primary_color: 40, 203, 139;   /* Keep branding color consistent */
+    --Secondary: 245, 247, 250;      /* Light secondary color for contrast */
+    --info: 129, 212, 250;           /* Softer blue for dark backgrounds */
+    
+    --Brand-Primary: 56, 142, 60;    /* Slightly darker green for branding */
+    --Neutral-D_Grey: 200, 200, 200; /* Light grey for text and UI elements */
+    --Text-Gray-900: 245, 247, 250;  /* White-ish text for readability */
+    /* --Neutral-Silver:23, 23, 23;  */   
+    --Neutral-Silver:24, 25, 31;      /* Darker silver for background accents */
+    --Neutral-L_Grey: 97, 97, 97;    /* Mid-tone grey for subtle highlights */
+    --Neutral-Grey: 137, 147, 158;   /* Grey for secondary elements */
+    --Neutral-Black: 0, 0, 0;        /* True black for deeper contrast areas */
+    --Neutral-White: 255, 255, 255;  /* Keep white for necessary highlights */
+    --Tint-T5: 56, 67, 58;
+    --shadow-color: 0, 0, 0, 0.60;
+}
+
