@@ -1,4 +1,4 @@
-import React from 'react'
+ 
 import {CustomFlowbiteTheme, Navbar } from "flowbite-react";
 
 const customTheme: CustomFlowbiteTheme['navbar'] = {

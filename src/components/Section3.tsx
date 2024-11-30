@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import Odometer from 'react-odometerjs';
 
 import AOS from "aos";
