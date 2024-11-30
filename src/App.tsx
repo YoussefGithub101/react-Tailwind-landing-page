@@ -1,11 +1,11 @@
  
  
 import './App.css'
-import Producs from './components/producs'
-import Clients from './components/Clients'
-import Section3 from './components/section3'
-import Section4 from './components/Section4'
-import Section5 from './components/Section5'
+import Producs from './components/producs.tsx'
+import Clients from './components/Clients.tsx'
+import Section3 from './components/Section3.tsx'
+import Section4 from './components/Section4.tsx'
+import Section5 from './components/Section5.tsx'
  
 import Nav from './layout/nav'
 import Footer from './layout/Footer'
