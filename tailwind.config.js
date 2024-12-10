@@ -1,4 +1,4 @@
-const flowbite = require("flowbite-react/tailwind");
+import flowbite from 'flowbite-react/tailwind';
 import fluid, { extract , screens, fontSize} from 'fluid-tailwind'
 
 /** @type {import('tailwindcss').Config} */

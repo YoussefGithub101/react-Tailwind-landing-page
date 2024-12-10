@@ -9,6 +9,7 @@ export default function Clients() {
       duration: 1000, // Animation duration in milliseconds
       offset: 100, // Offset from the element's top to start the animation
       once: false, // Whether animation should happen only once
+      disable: 'mobile'
     });
   }, []);
 

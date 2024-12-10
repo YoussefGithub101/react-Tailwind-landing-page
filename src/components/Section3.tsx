@@ -29,6 +29,7 @@ export default function Section3() {
       duration: 1000, // Animation duration in milliseconds
       offset: 100, // Offset from the element's top to start the animation
       once: false, // Whether animation should happen only once
+      disable: 'mobile'
     });
 
  
@@ -71,7 +72,7 @@ export default function Section3() {
             </p>
           </div>
           <div className="grid sm:grid-cols-2 items-center justify-center gap-y-10">
-            <div data-aos="fade-down-right" className="flex gap-4 sm:mx-auto lg:mx-0">
+            <div data-aos="fade-right" className="flex gap-4 sm:mx-auto lg:mx-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="float-left"
@@ -97,7 +98,7 @@ export default function Section3() {
               </div>
             </div>
 
-            <div data-aos="fade-down-left" className="flex   gap-4 sm:mx-auto  lg:mx-0">
+            <div data-aos="fade-left" className="flex   gap-4 sm:mx-auto  lg:mx-0">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 className="float-left"
@@ -119,7 +120,7 @@ export default function Section3() {
                 <p className="text-base text-Neutral-D_Grey leading-6">Clubs</p>
               </div>
             </div>
-            <div data-aos="fade-up-right" className="flex gap-4  sm:mx-auto  lg:mx-0">
+            <div data-aos="fade-right" className="flex gap-4  sm:mx-auto  lg:mx-0">
               <img src="/Icon.svg" alt="" className="float-left" />
               <div>
                 <h2 className="text-2xl text-Neutral-D_Grey leading-9">
@@ -130,7 +131,7 @@ export default function Section3() {
                 </p>
               </div>
             </div>
-            <div data-aos="fade-up-left" className="flex gap-4  sm:mx-auto  lg:mx-0">
+            <div data-aos="fade-left" className="flex gap-4  sm:mx-auto  lg:mx-0">
               <img src="/Icon.svg" alt="" className="float-left" />
               <div>
                 <h2 className="text-2xl text-Neutral-D_Grey leading-9">

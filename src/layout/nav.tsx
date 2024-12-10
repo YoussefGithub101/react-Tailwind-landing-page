@@ -13,7 +13,7 @@ const customTheme: CustomFlowbiteTheme['navbar'] = {
       "off": ""
     },
     "inner": {
-      "base": "mx-auto flex flex-wrap items-center justify-between",
+      "base": "mx-auto flex flex-wrap lg:flex-nowrap items-center  justify-between",
       "fluid": {
         "on": "",
         "off": "container"
@@ -46,21 +46,7 @@ const customTheme: CustomFlowbiteTheme['navbar'] = {
     "base": "inline-flex items-center rounded-lg p-2 text-sm text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600 lg:hidden",
     "icon": "h-6 w-6 shrink-0"
   }
-/*   root:{
-    inner: {
-      base: "mx-auto flex flex-wrap items-center justify-between",
-    }
-  },
-
-
-  collapse:{
-    base:"w-full lg:block lg:w-auto",
-    list:"mt-4 flex flex-col lg:mt-0 lg:flex-row lg:space-x-8 lg:text-sm lg:font-medium"
-  },
-  toggle:{
-    base:"lg:hidden",
-    icon:""
-  } */
+ 
 };
 
 
@@ -73,11 +59,11 @@ export default function Nav() {
      <header className='~px-6/36 bg-Neutral-Silver fixed w-full z-50'>
     <Navbar fluid rounded   theme={customTheme}>
     <Navbar.Brand >
-      <img src="/Logo.png" className="mr-3" alt="Flowbite React Logo" />
+      <img src="/Logo.png"   alt="Flowbite React Logo" className="w-24 sm:w-full" />
      </Navbar.Brand>
     <div className="flex lg:order-2">
-    <button type="button" className="py-2.5 px-5  text-Primary_color" >Login</button>
-    <button type="button" className="text-white bg-Brand-Primary hover:bg-Primary_color focus:border-2 focus:border-gray-800   font-medium rounded-md text-sm py-[0.625rem] px-[1.25rem] text-center  ">Sign up</button>
+    <button type="button" className="py-2.5 text-sm px-5 font-medium text-Primary_color" >Login</button>
+    <button type="button" className="text-white bg-Brand-Primary hover:bg-Primary_color focus:border-2 focus:border-gray-800 font-medium rounded-md text-sm py-[0.625rem] px-[1.25rem] text-center  ">Sign up</button>
       <Navbar.Toggle className='ml-2' />
     </div>
     <Navbar.Collapse>

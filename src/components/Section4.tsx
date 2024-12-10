@@ -8,6 +8,7 @@ export default function Section4() {
       duration: 1000, // Animation duration in milliseconds
       offset: 100, // Offset from the element's top to start the animation
       once: false, // Whether animation should happen only once
+      disable: 'mobile'
     });
   }, []);
 
@@ -36,7 +37,7 @@ export default function Section4() {
                  <h5 data-aos="fade-left"  className='text-Brand-Primary text-xl'>Tim Smith</h5>
                  <p  data-aos="fade-left"  className='text-Neutral-L_Grey text-base '>British Dragon Boat Racing Association</p>
                  
-                    <div className='flex flex-col xl:flex-row xl:justify-between gap-y-4 mt-8 items-center'>
+                    <div className='flex flex-col xl:flex-row xl:justify-between gap-y-4 mt-8 items-center overflow-hidden'>
                         <div className='flex ~gap-4/10 items-center'>
                         <img data-aos="fade-left"  src="/Logo1.svg" alt="" className='w-max-[40px]  '/>
                         <img data-aos="fade-left" src="/Logo2.svg" alt="" className='w-max-[40px] '/>
